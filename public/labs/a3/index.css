@@ -244,163 +244,247 @@ p#id-selector-2 {
 }
 
 .gradients-linear {
- background: linear-gradient(yellow, red);
-   width: 200px;
-   height: 200px;
+    background: linear-gradient(yellow, red);
+    width: 200px;
+    height: 200px;
+}
+.gradients-linear2 {
+    background: linear-gradient(mediumpurple, lightpink);
+    width: 200px;
+    height: 200px;
 }
 
 .gradients-radial {
- background: radial-gradient(yellow, green);
- width: 200px;
- height: 200px;
+    background: radial-gradient(yellow, green);
+    width: 200px;
+    height: 200px;
+}
+.gradients-radial2 {
+    background: radial-gradient(orange, red);
+    width: 200px;
+    height: 200px;
 }
 
 .gradients-positioned {
- background:
-  radial-gradient(
-   at top left, blue, red);
- width: 200px;
- height: 200px;
- color: white;
+    background:
+            radial-gradient(
+                    at top left, blue, red);
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+.gradients-positioned2 {
+    background:
+            radial-gradient(
+                    at bottom right, yellow, blue);
+    width: 200px;
+    height: 200px;
+    color: white;
 }
 
 .animation-keyframes {
-   position: relative;
-   top: 0px;
-   animation-duration: 7s;
-   animation-name: slidein;
-   width: 200px;
-   height: 200px;
-   background-color: red;
-   color: white;
-}
-
-@keyframes slidein {
-  from {
     position: relative;
     top: 0px;
-    font-size: 100%;
-    margin-left: 100%;
-    width: 200px;
-    height: 200px;
-    background-color: yellow;
-    color: black;
-  } /* continued on right */
-  50% {
-    position: relative;
-    top: -200px;
-    font-size: 300%;
-    margin-left: 25%;
-    width: 400px;
-    height: 400px;
-    background-color: blue;
-    color: white;
-  }
-
-  to {
-    position: relative;
-    top: 0px;
-    font-size: 100%;
-    margin-left: 0%;
+    animation-duration: 7s;
+    animation-name: slidein;
     width: 200px;
     height: 200px;
     background-color: red;
     color: white;
-  }
+}
+
+@keyframes slidein {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        color: black;
+    } /* continued on right */
+
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 300%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 200px;
+        height: 200px;
+        background-color: red;
+        color: white;
+    }
+}
+
+.animation-keyframes2 {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    /*animation-iteration-count: infinite;*/
+    animation-direction: alternate;
+    animation-name: slidein2;
+    width: 400px;
+    height: 600px;
+    background-color: green;
+    color: yellow;
+}
+
+@keyframes slidein2 {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 400px;
+        height: 600px;
+        background-color: yellow;
+        color: black;
+    } /* continued on right */
+
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 200%;
+        margin-left: 25%;
+        width: 400px;
+        height: 400px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 400px;
+        height: 600px;
+        background-color: red;
+        color: yellow;
+    }
 }
 
 .flex-container {
-  border-width: 5px;
-  border-color: black;
-  border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
 }
 .flex-box {
-  border: 5px gray solid;
-  margin: 10px;
-  padding: 10px;
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
 }
 .flex-box-1 {
-  background-color: yellow;
+    background-color: yellow;
 }
 .flex-box-2 {
-  background-color: blue;
-  color: white;
+    background-color: blue;
+    color: white;
 }
 .flex-box-3 {
-  background-color: red;
-  color: white;
+    background-color: red;
+    color: white;
 }
 
-/*Flex elements horizontally*/
-.flex-container {
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
-   display: flex;
+.flex-container-center {
+    border-width: 10px;
+    border-color: purple;
+    border-style: dashed;
+    display: flex;
+    justify-content: center;
 }
 
-.flex-container {
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
-   display: flex;
-   justify-content: center;
+.flex-container-end {
+    border-width: 5px;
+    border-color: orange;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
 }
 
-.flex-container {
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
-   display: flex;
-   justify-content: end;
+.flex-container-space-around {
+    border-width: 2px;
+    border-color: pink;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
 }
 
-.flex-container {
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
-   display: flex;
-   justify-content: space-around;
+.flex-container-space-between {
+    border-width: 25px;
+    border-color: green;
+    border-style: dotted;
+    display: flex;
+    justify-content: space-between;
 }
 
-.flex-container {
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
-   display: flex;
-   justify-content: space-between;
+.flex-box-ver {
+    border: 3px black solid;
+    margin: 15px;
+    padding: 15px;
+}
+.flex-box-ver-1 {
+    background-color: green;
+}
+.flex-box-ver-2 {
+    background-color: blue;
+    color: red;
+}
+.flex-box-ver-3 {
+    background-color: orange;
+    color: white;
 }
 
-.flex-container {
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: flex-start;
+.flex-container-ver-start {
+    border-width: 5px;
+    border-color: black;
+    border-style: double;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
 }
 
-.flex-container {
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
+.flex-container-ver-center {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.flex-container {
-   border-width: 5px;
-   border-color: black;
-   border-style: solid;
-   display: flex;
-   /*justify-content: space-evenly;*/
-   /*align-items: center;*/
+.flex-container-ver-end {
+    border-width: 5px;
+    border-color: black;
+    border-style: dashed;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: end;
 }
 
-.flex-container > .flex-box {
-   flex-basis: 100%;
+.flex-container-even {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
 }
+
+.flex-container-even > .flex-box-ver {
+    flex-basis: 100%;
+}
+
 
 @media (min-width: 0px)
    and (max-width: 600px) {
