@@ -8,7 +8,7 @@ const PostSummaryItem = (post) => {
                         <span class="fw-normal text-secondary">- ${post.time}</span>
                     </div>
                     <div class="fw-bolder">${post.title}</div>
-                     <div class="text-secondary">${post.tweets}</div>
+                     <div class="text-secondary">${jQuery.isEmptyObject(post.tweets)? "" : post.tweets}</div>
                 </div>
                 <div class="col-2">
                     <img class="float-end img-fluid mb-2" src=${post.image}/>

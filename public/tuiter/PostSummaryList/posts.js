@@ -4,7 +4,7 @@ export default [
        userName: 'ReactJS',
        time: '2h',
        title: 'React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs',
-       image: '../image/ReactJS.png'
+       image: '../image/React.png'
    },
    {
        topic: '',
@@ -16,8 +16,8 @@ export default [
    },
    {
        topic: 'Web Development',
-       userName: '',
-       title: 'jQuery',
+       userName: 'jQuery',
+       title: '',
        time: 'last week',
        image: '../image/jquery.png',
        tweets: '122K',

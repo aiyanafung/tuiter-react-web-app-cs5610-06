@@ -1,0 +1,28 @@
+export default [
+    {
+        avartar: '../image/elonmusk.jpg',
+        userName: 'Elon Musk',
+        handleName: '@elonmusk',
+        time: '23h',
+        tuit: 'Amazing show about <a href="#">@Inspiration4x</a> mission!',
+        image: '../image/inspiration.jpg',
+        cardTitle: 'Countdown: Inspiration4 Mission to Space | Netflix Official Site',
+        cardText: 'From training to launch to landing, this all-access ducuseries rides along with the Inspiration4 crew on the first all-civilian orbital space...',
+        comment: '4.2k',
+        retuit: '3.5k',
+        like: '37.5k',
+    },
+    {
+        avartar: '../image/nypost.png',
+        userName: 'New York Post',
+        handleName: '@nypost',
+        time: '23h',
+        tuit: 'Grimes seen reading Karl Marx following split with world\'s richest man Elon Musk <a href="#">trib.al/nx2Gfaq</a>',
+        image: '../image/Grimes.jpg',
+        cardTitle: '',
+        cardText: '',
+        comment: '965',
+        retuit: '2.4k',
+        like: '4k',
+    },
+]
