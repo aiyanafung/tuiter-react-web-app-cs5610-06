@@ -1,0 +1,9 @@
+.pos-relative-nudge-up-right {
+    position: relative;
+    bottom: 80px;
+    left: 15px;
+}
+
+.img-size {
+   height:300px;
+}
