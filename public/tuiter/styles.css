@@ -1,0 +1,135 @@
+body {
+    background-color: black;
+    color: white;
+    border-color: rgb(47, 51, 54);
+    padding-left: 16px;
+}
+
+.wd-top-rec {
+    clear: both;
+    padding-bottom: 12px;
+    padding-left: 16px;
+    border: rgb(47, 51, 54) solid 1px;
+}
+.wd-top-title {
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+.wd-top-handle {
+    font-size: 13px;
+    color:rgb(110, 118, 125);
+    margin-bottom: 12px;
+}
+
+.wd-dots-blue{
+    color: rgb(29, 161, 242);
+    font-size: 20px;
+    float: right;
+    margin-right: 16px;
+    margin-top: 12px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.wd-dots-gray{
+    margin-top: 12px;
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+    margin-right: 16px;
+    display: inline-block;
+}
+
+.wd-post-rec {
+    clear: both;
+    border: rgb(47, 51, 54) solid 1px;
+    border-top: hidden;
+    overflow: hidden;
+}
+
+.wd-circular-img {
+    float: left;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-right: 12px;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+}
+
+.wd-other {
+    float: left;
+    max-width: 506px;
+}
+
+.wd-author {
+    margin-top: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.wd-author-handle {
+    margin-top: 12px;
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    font-weight: normal;
+}
+
+.wd-post-content {
+    font-size: 15px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+    max-width: 506px;
+    margin-top: 12px;
+}
+.wd-post-description {
+    border: 1px solid rgb(47, 51, 54);
+    border-radius: 20px;
+}
+.wd-post-img {
+    width: 504px;
+    height: 264px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 12px;
+}
+
+.wd-post-title {
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.wd-post-des {
+    font-size: 15px;
+    color: rgb(110, 118, 125);
+    padding: 12px;
+}
+
+.wd-icons {
+    margin-top: 12px;
+    color: rgb(110, 118, 125);
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.wd-numbers {
+    padding-right: 80px;
+    padding-left: 12px;
+}
+
+.wd-icon-heart{
+    text-decoration: none;
+    color: red;
+}
+.wd-icon {
+    text-decoration: none;
+    padding-left: 5px;
+    margin-right: 12px;
+    color: rgb(110, 118, 125);
+}
