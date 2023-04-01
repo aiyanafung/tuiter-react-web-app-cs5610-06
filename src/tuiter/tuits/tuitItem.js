@@ -29,7 +29,7 @@ const TuitItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-auto">
-                    <img width={50} className="float-end rounded-circle" src={tuit.image} alt="..."/>
+                    <img width={50} className="float-end rounded-circle" src={`/tuiter/images/${tuit.image}`} alt="..."/>
                 </div>
                 <div className="col-10">
                     <div className="d-flex justify-content-between">
