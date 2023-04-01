@@ -7,10 +7,10 @@ import {updateTuitThunk, createTuitThunk, deleteTuitThunk, findTuitsThunk}
 const currentUser = {
     "username": "NASA",
     "handle": "@nasa",
-    "image": "../../images/nasa.jpg"
+    "image": "NASA.jpg"
 };
 
-const templateTuit = {
+export const templateTuit = {
     ...currentUser,
     "topic": "Space",
     "time": "2h",
@@ -46,6 +46,8 @@ const tuitsSlice = createSlice({
             },
         [createTuitThunk.fulfilled]: (state, { payload }) => {
                 state.loading = false
+                console.log(payload);
+                console.log(templateTuit);
                 state.tuits.unshift({
                     ...payload,
                     ...templateTuit,
