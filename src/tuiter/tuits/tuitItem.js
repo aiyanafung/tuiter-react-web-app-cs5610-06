@@ -6,7 +6,7 @@ import {useDispatch} from "react-redux";
 const TuitItem = (
    {
         tuit = {
-            "_id": 234,
+            "_id": "123",
             "topic": "Space",
             "userName": "SpaceX",
             "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
@@ -29,7 +29,7 @@ const TuitItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-auto">
-                    <img width={50} className="float-end rounded-circle" src={`/tuiter/images/${tuit.image}`} alt="..."/>
+                    <img width={50} className="float-end rounded-circle" src={tuit.image} alt="..."/>
                 </div>
                 <div className="col-10">
                     <div className="d-flex justify-content-between">

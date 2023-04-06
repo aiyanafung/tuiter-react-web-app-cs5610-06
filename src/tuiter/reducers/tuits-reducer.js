@@ -7,7 +7,7 @@ import {updateTuitThunk, createTuitThunk, deleteTuitThunk, findTuitsThunk}
 const currentUser = {
     "username": "NASA",
     "handle": "@nasa",
-    "image": "NASA.jpg"
+    "image": "https://www.nasa.gov/sites/default/files/thumbnails/image/s75-31690.jpeg"
 };
 
 export const templateTuit = {
@@ -46,13 +46,9 @@ const tuitsSlice = createSlice({
             },
         [createTuitThunk.fulfilled]: (state, { payload }) => {
                 state.loading = false
-                console.log(payload);
-                console.log(templateTuit);
                 state.tuits.unshift({
                     ...payload,
-                    ...templateTuit,
-                    _id: (new Date()).getTime()
-                })
+                    ...templateTuit                })
             },
         [updateTuitThunk.fulfilled]: (state, { payload }) => {
                 state.loading = false

@@ -33,7 +33,7 @@ const TuitStats = (
                <div className="col">
                    {tuit.liked && <i onClick={() => unlikeTuitHandler(tuit)} className="bi bi-heart-fill text-danger"></i>}
                    {!tuit.liked && <i onClick={() => likeTuitHandler(tuit)} className="bi bi-heart"></i>}
-                   {tuit.likes}
+                   <span className="m-1">{tuit.likes}</span>
                </div>
                <div className="col"><i className="bi bi-upload"></i></div>
            </div>
