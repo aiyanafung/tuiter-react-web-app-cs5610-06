@@ -1,0 +1,33 @@
+[
+  {
+    "_id": 123,
+    "avatar": "/tuiter/images/elonmusk.jpg",
+    "userName": "Elon Musk",
+    "handle": "elonmusk",
+    "time": "23h",
+    "tuit": "Amazing show about @Inspiration4x mission!",
+    "image": "/tuiter/images/inspiration.jpg",
+    "cardTitle": "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
+    "cardText": "From training to launch to landing, this all-access ducuseries rides along with the Inspiration4 crew on the first all-civilian orbital space...",
+    "cardLink": "netflix.com",
+    "comment": "4.2k",
+    "retuit": "3.5k",
+    "like": "37.5k"
+  },
+  {
+    "_id": 456,
+    "avatar": "/tuiter/images/nypost.png",
+    "userName": "New York Post",
+    "handle": "nypost",
+    "time": "23h",
+    "tuit": "Grimes seen reading Karl Marx following split with world's richest man Elon Musk",
+    "tuitLink":  "trib.al/nx2Gfaq",
+    "image": "/tuiter/images/Grimes.jpg",
+    "cardTitle": "",
+    "cardText": "",
+    "cardLink": "",
+    "comment": "965",
+    "retuit": "2.4k",
+    "like": "4k"
+  }
+]
